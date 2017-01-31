@@ -7,6 +7,7 @@
  */
 /* Document
    ========================================================================== */
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -452,8 +453,8 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
-header {
-  background-image: url(file:///Users/natharris/Desktop/blank_website_template/assets/img/wheat_field.jpg);
+.header {
+  background-image: url(https://raw.githubusercontent.com/nat1996/blank_website_template/master/assets/img/wheat_field.jpg);
   height: 100vh;
   background-size: cover;
   display: -webkit-box;
@@ -473,3 +474,210 @@ header {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
+
+.nav {
+  margin-top: -45px;
+  height: 45px;
+  background-color: black;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .nav a {
+    text-decoration: none; }
+  .nav li {
+    list-style: none;
+    float: left;
+    margin-right: 30px; }
+  .nav li:hover {
+    color: #42bcf4;
+    text-decoration: underline; }
+
+.logo {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3MzkuODIgMzgwIj48ZGVmcz48c3R5bGU+LmNscy0xLC5jbHMtM3tmaWxsOiNmZmY7c3Ryb2tlOiMwMDA7fS5jbHMtMSwuY2xzLTIsLmNscy0ze3N0cm9rZS1taXRlcmxpbWl0OjEwO30uY2xzLTJ7c3Ryb2tlOiM0ZDRkNGQ7b3BhY2l0eTowLjE7fS5jbHMtM3tmb250LXNpemU6NzJweDtmb250LWZhbWlseTpIZWF2ZW5NYXR0ZXJzUGVyc29uYWxVc2UsIEhlYXZlbiBNYXR0ZXJzIFBlcnNvbmFsIFVzZTt9LmNscy00e2ZpbGw6bm9uZTt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPkFycm93aGVhZEZhcm1zTG9nb1doaXRlV29yZHM8L3RpdGxlPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTg0LjUsMjQwLjE2bDMuMiw2LjY5QTIuNTcsMi41NywwLDAsMCw5MCwyNDguMzFIMTA3LjJhMi41NywyLjU3LDAsMCwwLDEuNjItLjU3bDguMjctNi42OWEyLjU3LDIuNTcsMCwwLDAtMS42Mi00LjU3SDg2LjgyQTIuNTcsMi41NywwLDAsMCw4NC41LDI0MC4xNloiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xNjcuNzEsMjAzLjMxYy01LjEsNy40OC0yMi4wNSwyNy45NS02OS40NCw1Ni40NmEyLjU4LDIuNTgsMCwwLDAtMSwzLjI1bDQuNTgsMTAuMzZhMi41NiwyLjU2LDAsMCwwLDMuMTcsMS40YzUuNzUtMiwyMi04LjY1LDQyLjg2LTI3QTI0MS43NiwyNDEuNzYsMCwwLDAsMTc4LjMxLDIxNWEyLjYsMi42LDAsMCwwLDAtMy4xNGwtNi40NS04LjZBMi41NiwyLjU2LDAsMCwwLDE2Ny43MSwyMDMuMzFaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTkwLjE4LDI0Mi45MWEyODkuMDksMjg5LjA5LDAsMCwxLTM1LjYyLDQuNTMsMi41NywyLjU3LDAsMCwxLTEuOTQtNC40bDExLTEwLjg0YTIuNTUsMi41NSwwLDAsMSwxLjItLjY3LDEyMi45NCwxMjIuOTQsMCwwLDEsMTkuMzQtMi44NywyLjU2LDIuNTYsMCwwLDEsMi4xNS45MiwzMi41MywzMi41MywwLDAsMSw1LjgyLDEwQTIuNTcsMi41NywwLDAsMSwxOTAuMTgsMjQyLjkxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTExNS40NiwyNzAuNTVjLTEsMS4zNC00LjM0LDUuNjUtMTEuNzUsMTAuODVhMi41NSwyLjU1LDAsMCwwLTEuMTEsMmMtLjA2LDIuMjUuNjMsNi44MSw2LjY1LDkuMjQsNy4zNSwzLDc5LjE2LTMwLjEzLDk0LTM3YTIuNTYsMi41NiwwLDAsMC0uMTItNC43MWMtNS4yOC0yLTE5Ljc4LTMtNTguODEsMy4zOGEyLjYzLDIuNjMsMCwwLDAtLjg1LjNsLTI3LjE5LDE1LjI2QTIuNSwyLjUsMCwwLDAsMTE1LjQ2LDI3MC41NVoiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0yMTcuMzUsMTU3LjQ0LDQyLjMyLDUuMmE2LjQ2LDYuNDYsMCwwLDAtMTAuNyw0LjczTDI2LjU0LDIzNy43N2E2LjQ2LDYuNDYsMCwwLDAsOSw2LjFMNzAuOCwyMjlhOSw5LDAsMCwwLDItMS4xN2wyLjk0LTIuMjdhOSw5LDAsMCwxLDkuOTEtLjczbDQuNjIsMi41N2E5LDksMCwwLDAsNC40LDEuMTRoMzRhOSw5LDAsMCwwLDYuNjktM2wyOS0zMmE5LDksMCwwLDEsMy4zNi0yLjMzbDQ3LjA3LTE4LjY5QTksOSwwLDAsMCwyMTcuMzUsMTU3LjQ0Wk0xMjAuNDIsMTgwLDY0LjMsNTQuMjRhMi41NywyLjU3LDAsMCwxLDQuMDctM2wxMTQsMTAyLjkxYTIuNTcsMi41NywwLDAsMS0uNzgsNC4zbC01Ny45MSwyMi44NUEyLjU3LDIuNTcsMCwwLDEsMTIwLjQyLDE4MFoiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik01MCwxMC45NCw0Mi43OSw0Ljc2YTYuNDcsNi40NywwLDAsMC0xMC43LDQuNzZMMjcsMjM3LjM4YTYuNDcsNi40NywwLDAsMCw5LDYuMTFsMzUuMjktMTQuODJhOSw5LDAsMCwwLDItMS4xN2wyLjk0LTIuMjdhOSw5LDAsMCwxLDkuOTEtLjczTDkwLjc2LDIyN2E4Ljk0LDguOTQsMCwwLDAsNC40LDFoMjMuNzNBMTQyOS41OCwxNDI5LjU4LDAsMCwxLDUwLDEwLjk0WiIvPjx0ZXh0IGNsYXNzPSJjbHMtMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjQ2LjQ2IDE4NC43OSkgcm90YXRlKC0yMS42MSkiPnI8L3RleHQ+PHRleHQgY2xhc3M9ImNscy0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNzAuMjYgMTc1LjM2KSByb3RhdGUoLTE3Ljc1KSI+cjwvdGV4dD48dGV4dCBjbGFzcz0iY2xzLTMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI5NC42OCAxNjcuNDUpIHJvdGF0ZSgtMTQuMDcpIj5vPC90ZXh0Pjx0ZXh0IGNsYXNzPSJjbHMtMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzI0LjA3IDE1OS43Mykgcm90YXRlKC05LjYpIj53PC90ZXh0Pjx0ZXh0IGNsYXNzPSJjbHMtMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzcxLjE2IDE1MS45OSkgcm90YXRlKC01LjM0KSI+aDwvdGV4dD48dGV4dCBjbGFzcz0iY2xzLTMiIHRyYW5zZm9ybT0ibWF0cml4KDEsIC0wLjA0LCAwLjA0LCAxLCA0MDYuNjYsIDE0OC43NikiPmU8L3RleHQ+PHRleHQgY2xhc3M9ImNscy0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0MzQuNjYgMTQ3LjUxKSByb3RhdGUoMC42OCkiPmE8L3RleHQ+PHRleHQgY2xhc3M9ImNscy0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0NzEuMTYgMTQ3LjkyKSByb3RhdGUoNC4xMSkiPmQ8L3RleHQ+PHRleHQgY2xhc3M9ImNscy0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MDcuNjUgMTUwLjY5KSByb3RhdGUoNy4wNikiPiA8L3RleHQ+PHRleHQgY2xhc3M9ImNscy0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNDUuMTUgMjc0LjQ5KSByb3RhdGUoLTE3Ljg5KSI+RjwvdGV4dD48dGV4dCBjbGFzcz0iY2xzLTMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMxNy41OCAyNTIuNDMpIHJvdGF0ZSgtMTAuOTYpIj5hPC90ZXh0Pjx0ZXh0IGNsYXNzPSJjbHMtMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzUzLjQ2IDI0NS42Mykgcm90YXRlKC03LjYzKSI+cjwvdGV4dD48dGV4dCBjbGFzcz0iY2xzLTMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDM3OC44IDI0MS43Mykgcm90YXRlKC0zLjcpIj5tPC90ZXh0Pjx0ZXh0IGNsYXNzPSJjbHMtMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDMyLjc4IDIzOC41OSkgcm90YXRlKDAuNDUpIj5zPC90ZXh0PjxyZWN0IGNsYXNzPSJjbHMtNCIgd2lkdGg9IjU0MCIgaGVpZ2h0PSIzMDkiLz48L3N2Zz4=);
+  background-position: 10px 40vh;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 510px;
+  height: 100vh;
+  background-size: 130%;
+  position: absolute; }
+
+.logoSmall {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxOTQgMjg5IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxOTQgMjg5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+CjxnPgoJPGc+CgkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTEzNiwyMzYuNGwtMy4yLDYuN2MtMC40LDAuOS0xLjMsMS41LTIuMywxLjVoLTE3LjJjLTAuNiwwLTEuMi0wLjItMS42LTAuNmwtOC4zLTYuNwoJCQljLTEuOS0xLjUtMC44LTQuNiwxLjYtNC42aDI4LjdDMTM1LjYsMjMyLjcsMTM2LjgsMjM0LjcsMTM2LDIzNi40eiIvPgoJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik01Mi44LDE5OS41YzUuMSw3LjUsMjIuMSwyNy45LDY5LjQsNTYuNWMxLjEsMC43LDEuNiwyLjEsMSwzLjJsLTQuNiwxMC40Yy0wLjUsMS4yLTEuOSwxLjgtMy4yLDEuNAoJCQljLTUuOC0yLTIyLTguNy00Mi45LTI3Yy05LjQtOC4zLTE5LjgtMTktMzAuNS0zMi44Yy0wLjctMC45LTAuNy0yLjIsMC0zLjFsNi41LTguNkM0OS43LDE5OCw1MS44LDE5OC4xLDUyLjgsMTk5LjV6Ii8+CgkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTMwLjMsMjM5LjFjNS42LDEuMSwxOS44LDMuNiwzNS42LDQuNWMyLjQsMC4xLDMuNi0yLjcsMS45LTQuNGwtMTEtMTAuOGMtMC4zLTAuMy0wLjctMC42LTEuMi0wLjcKCQkJYy0yLjMtMC41LTkuOS0yLjItMTkuMy0yLjljLTAuOC0wLjEtMS42LDAuMy0yLjIsMC45Yy0xLjUsMS44LTQuNSw1LjgtNS44LDEwQzI3LjksMjM3LjMsMjguOCwyMzguOCwzMC4zLDIzOS4xeiIvPgoJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMDUsMjY2LjhjMSwxLjMsNC4zLDUuNiwxMS44LDEwLjhjMC43LDAuNSwxLjEsMS4yLDEuMSwyYzAuMSwyLjMtMC42LDYuOC02LjcsOS4yYy03LjQsMy03OS4yLTMwLjEtOTQtMzcKCQkJYy0yLTAuOS0yLTMuOSwwLjEtNC43YzUuMy0yLDE5LjgtMyw1OC44LDMuNGMwLjMsMCwwLjYsMC4yLDAuOSwwLjNsMjcuMiwxNS4zQzEwNC41LDI2Ni4yLDEwNC44LDI2Ni41LDEwNSwyNjYuOHoiLz4KCTwvZz4KCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik01LjcsMTY4LjlsNDcuMSwxOC43YzEuMywwLjUsMi40LDEuMywzLjQsMi4zbDI5LDMyYzEuNywxLjksNC4xLDMsNi43LDNoMzRjMS41LDAsMy4xLTAuNCw0LjQtMS4xbDQuNi0yLjYKCQljMy4yLTEuOCw3LTEuNSw5LjksMC43bDIuOSwyLjNjMC42LDAuNSwxLjMsMC45LDIsMS4ybDM1LjMsMTQuOGM0LjMsMS44LDkuMS0xLjQsOS02LjFMMTg4LjksNi4zYy0wLjEtNS41LTYuNi04LjMtMTAuNy00LjcKCQlMMy4yLDE1My44Qy0yLDE1OC4xLTAuNiwxNjYuNCw1LjcsMTY4Ljl6IE05Ni44LDE3Ny42bC01Ny45LTIyLjhjLTEuOC0wLjctMi4yLTMtMC44LTQuM2wxMTQtMTAyLjljMi4xLTEuOSw1LjIsMC40LDQuMSwzCgkJbC01Ni4xLDEyNS44Qzk5LjUsMTc3LjUsOTguMSwxNzguMSw5Ni44LDE3Ny42eiIvPgo8L2c+Cjwvc3ZnPgo=);
+  background-size: contain;
+  margin-left: 20px;
+  margin-top: 8px;
+  width: 20px;
+  height: 30px;
+  background-repeat: no-repeat; }
+
+div.contain {
+  background-image: url(https://github.com/nat1996/blank_website_template/blob/master/assets/img/ElizabethCitySunDowntown.jpg?raw=true);
+  height: 100vh;
+  background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+div.gridR {
+  float: right;
+  padding-right: 10vw;
+  padding-left: 50vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0; }
+  div.gridR div.whitegrid {
+    background: rgba(255, 255, 255, 0.65);
+    height: 100vh;
+    width: 30vw;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  div.gridR p {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14pt;
+    opacity: 1;
+    font-family: 'Raleway', sans-serif;
+    color: #000; }
+
+div.windfarm {
+  background-image: url(https://raw.githubusercontent.com/nat1996/blank_website_template/master/assets/img/DJI_0074.jpg);
+  height: 100vh;
+  background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+div.gridL {
+  float: left;
+  padding-right: 35vw;
+  padding-left: 25vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0; }
+  div.gridL div.whitegrid {
+    background: rgba(255, 255, 255, 0.65);
+    height: 100vh;
+    width: 30vw;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  div.gridL p {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14pt;
+    opacity: 1;
+    font-family: 'Raleway', sans-serif;
+    color: #000; }
+
+.sidenav {
+  height: 350px;
+  width: 160px; }
