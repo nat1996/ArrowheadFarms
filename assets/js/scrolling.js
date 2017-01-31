@@ -1,7 +1,7 @@
 
   $(window).scroll(function(){
     var wScroll = $(window).scrollTop();
-    console.log(wScroll);
+    //console.log(wScroll);
     var aWScroll = 40 - wScroll/10;
     $('.logo').css('background-position', '10px ' + aWScroll + 'vh');
 
@@ -40,6 +40,7 @@
 
       }
     });
+
 
 
   });
