@@ -4,31 +4,39 @@
   margin-left: 5vh
   background-color: #3dec97
   position: relative
-  bottom: 70vh
+
+  top: 130vh
   z-index: 1
   display: flex
   flex-direction: column
   justify-content: center
   align-items: center
-  opacity: 0
+  opacity: 1 // change back to 0 for fade
+  box-shadow: 8px 8px 5px #282828
+  border-radius: 4px
 
   color: #000
   font-family: 'Raleway', sans-serif
 
 
   ul
-    padding-top: 10px
+    padding-top: 0px
     font-size: 14pt
     position: relative
     right: 18px
 
   li
-    padding-top: 15px
+    padding-top: 30px
     list-style: none
   li:hover
     color: #fff
     text-decoration: underline
-    transform: translateX(4px)
+    transform: translateX(6px)
+    list-style-type: disc
+
+  li:active
+    color: #ff9d00
+    list-style-type: disc
 
 
 
